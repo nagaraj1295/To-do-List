@@ -1,6 +1,6 @@
-h3
+h1
 {
-    color: aqua;
+    color: rgb(0, 39, 39);
     text-align: center;
 }
 .main
@@ -37,8 +37,8 @@ body
 {
     width: 50px;
     background-color: aqua;
-    border-width: 1px;
-    border-radius: 0 5px 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0px;
     font-size: 30px;
 }
 
@@ -64,4 +64,30 @@ button
 {
     margin-left: 10px;
     
+}
+
+input::placeholder
+{
+    color: rgb(5, 63, 63);
+    padding-left: 10px;
+    font-weight: 200;
+    font-size: medium;
+}
+
+/* Default text color inside input */
+input[type="text"] {
+    color: blue; /* Text color */
+    background-color: #f0f0f0; /* Optional background */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+/* Change text color when input is focused */
+input[type="text"]:focus {
+    color: red; /* Text color when typing */
+    border-color: #ff0000;
+    outline: none; /* Remove default outline */
 }
