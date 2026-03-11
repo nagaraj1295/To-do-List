@@ -1,4 +1,62 @@
 h3
 {
     color: aqua;
+    text-align: center;
 }
+.main
+{
+    width: 500px;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+}
+body
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.input
+{
+    display: flex;
+    justify-content: center;
+}
+
+#intext
+{
+    width: 380px;
+    height: 40px;
+    border-radius: 5px 0px 0 5px;
+    margin-right: 0px;
+    border-width: 1px 0 1px 1px;
+}
+
+#add
+{
+    width: 50px;
+    background-color: aqua;
+    border-width: 1px;
+    border-radius: 0 5px 5px 0;
+    font-size: 30px;
+}
+
+.tasks
+{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+}
+li
+{
+    padding-bottom: 5px;
+    list-style: none;
+    font-size: 20px;
+}
+
+button
+{
+    cursor: pointer;
+}
+
